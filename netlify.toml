@@ -1,7 +1,4 @@
-[build]
-publish = "dist/Marina-MB/browser"
-command = "ng build"
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  status = 200
+  to = "/index.html"
